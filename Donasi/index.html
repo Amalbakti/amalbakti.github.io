@@ -64,6 +64,22 @@
             <button>
               <i class="fa fa-clone"></i>
             </button>
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+            <script>
+                const copyBtn = document.getElementById('copyBtn')
+                const copyText = document.getElementById('copyText')
+                
+                copyBtn.onclick = () => {
+                    copyText.select();    // Selects the text inside the input
+                    document.execCommand('copy');    // Simply copies the selected text to clipboard 
+                     Swal.fire({         //displays a pop up with sweetalert
+                        icon: 'success',
+                        title: 'Text copied to clipboard',
+                        showConfirmButton: false,
+                        timer: 1000
+                    });
+                }
+            </script>
           </div>
         </div>
           <!--end copy -->
@@ -166,7 +182,7 @@
     </ul>
     
     <!-- footer -->
-     <div class="container mt-5">
+     <div class="container-fluid mt-5">
   <style>
     footer {
     background-color: #f2f2f2;
