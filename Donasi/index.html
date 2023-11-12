@@ -55,24 +55,24 @@
           <!-- copy pasye -->
         <script type="text/javascript" src="https://skylightanimation.github.io/assets/plugin/jquery/jquery-3.4.1.min.js"></script>
  
-<textarea id="text-copy" class="form-copy">7254155898</textarea>
-<button class="btn btn-copy btn-circle">
-    COPY
-</button>
- 
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('.btn-copy').on("click", function(){
-            var value = $('#text-copy').text();
+          <textarea id="text-copy" class="form-copy">7254155898</textarea>
+          <button class="btn btn-copy btn-circle">
+              COPY
+          </button>
            
-            var $tempCopy = $("<input>");
-                $("body").append($tempCopy);
-                $tempCopy.val(value).select();
-                document.execCommand("copy");
-                $tempCopy.remove();
-        })
-    })
-</script>
+          <script type="text/javascript">
+              $(document).ready(function(){
+                  $('.btn-copy').on("click", function(){
+                      var value = $('#text-copy').text();
+                     
+                      var $tempCopy = $("<input>");
+                          $("body").append($tempCopy);
+                          $tempCopy.val(value).select();
+                          document.execCommand("copy");
+                          $tempCopy.remove();
+                  })
+              })
+      </script>
 
           <!--end copy -->
             
