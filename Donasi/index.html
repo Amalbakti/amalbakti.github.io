@@ -51,6 +51,47 @@
         <p class="text-md-center">Semoga Allah SWT memberikan limpahaan rizqi yang barokah, pahala yang setimpal serta kemanfaatan di dunia dan di akherat nanti.</p>
         <p class="text-md-center">Silahkan donasikan niat baik anda di Nomor Rekening BSI dibawah ini.</p>
         <p><h4>Rek.Bank Syariah Indonesia Nomor: 7254155898</h4>
+          <-- copy pasye -->
+        <div class="container">
+    <br>
+    <div class="thumbnail text-box">
+        <div id="text-copy">
+            7254155898
+        </div>
+        <button class="btn btn-xs btn-copy btn-primary">
+            <span class="fa fa-copy"></span> Copy
+        </button>
+    </div>
+</div>
+ 
+<style type="text/css">
+    .btn-copy{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 5px 10px;
+    }
+    .text-box{
+        position: relative;
+    }
+</style>
+ 
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.btn-copy').on("click", function(){
+            var value = $('#text-copy').text();
+           
+            var $tempCopy = $("<input>");
+                $("body").append($tempCopy);
+                $tempCopy.val(value).select();
+                document.execCommand("copy");
+                $tempCopy.remove();
+        })
+    })
+</script>
+
+            <--end copy -->
+            
         <p class="text-sm-center">a/n Paguyuban Amal Bakti Cibelok.</p>
         <i>Mohon kiranya semuanya selalu mengingatkan, ini adalah Amanah yang sangat mulia</i>       
       </div>    
