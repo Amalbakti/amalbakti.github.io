@@ -1,15 +1,34 @@
-body {
-  min-height: 2000px;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
 }
 
-.jumbotron {
-  background-color: #e2edff;
+.input-field {
+  width: 300px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 
-#projects {
-  background-color: #ffff;
+.copy-button {
+  padding: 10px 20px;
+  border: 1px solid #718ca8;
+  background-color: #0051ff;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-#sponsor {
-  background-color: #e2edff;
+.copy-button i {
+  margin-right: 5px;
+}
+
+#copiedText {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
 }
