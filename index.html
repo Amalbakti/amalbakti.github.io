@@ -103,37 +103,17 @@
 
             <!-- copy pasye -->
    
-        <div class="container text-center">
-          <div class="label">
-           <b>Donasi Bank BSI No. Rek</b>
-          </div>
-          <div class="copy-text" style="text-center">
-            <input type="text" value="7254155898" id="copyText" readonly>
-            <button id="copyBtn">
-              Copy No.
-            </button>
-            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-            <script>
-                const copyBtn = document.getElementById('copyBtn')
-                const copyText = document.getElementById('copyText')
-                
-                copyBtn.onclick = () => {
-                    copyText.select();    // Selects the text inside the input
-                    document.execCommand('copy');    // Simply copies the selected text to clipboard 
-                     Swal.fire({         //displays a pop up with sweetalert
-                        icon: 'success',
-                        title: 'Text copied to clipboard',
-                        showConfirmButton: false,
-                        timer: 1000
-                    });
-                }
-            </script>
-            <p>
-            <b>a/n Paguyuban Amal Bakti Cibelok</b>
-            </p>
-          </div>
-        </div>
-       </section>   
+        <div class="container">
+        <input id="copyText" class="input-field text-center" type="text" value="7254155898" readonly>
+        <button id="copyButton" class="copy-button">
+            <i class="fas fa-clone"></i> Copy No.
+        </button>
+        <p id="copiedText"></p>     
+            <p class="text-sm-center">a/n Paguyuban Amal Bakti Cibelok.</p>
+            <i>Mohon kiranya semuanya selalu mengingatkan, ini adalah Amanah yang sangat mulia</i>       
+            </div>
+          </div>      
+    </div>  
           <!--end copy -->
        <!-- end Jumbotron -->
           
@@ -304,6 +284,7 @@
       </footer>
    </div>
 </body>
+  <script src="/home/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
   <script>
   </script>
