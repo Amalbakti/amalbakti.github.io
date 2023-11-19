@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Amalbakti Profile</title>
+    <link rel="stylesheet" href="gallery/style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
   </head>
   <body>
@@ -44,17 +45,27 @@
 
     <!-- fist layout start -->
     <div class="container-fluid bg-white text-dark  mt-5">
-      <div class="row text-center align-items-center">
-        
-        <div class="col-12  mt-5">
-          <img
-            src="https://imageio.forbes.com/specials-images/imageserve/61d52d4e3a76ed81ac034ea8/The-10-Tech-Trends-That-Will-Transform-Our-World/960x0.jpg?format=jpg&width=960
-            " 
-            alt="my image"
-            style="width: 40%"
-            />
-         </div>     
-       </div>
+       <div class="gallery" id="gallery">
+      <!-- Images will be dynamically added here using JavaScript -->
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImage" />
+      <div id="modalCaption"></div>
+    </div>
+
+    <!-- Upload form -->
+    <form id="uploadForm">
+      <input type="file" id="imageInput" accept="image/*" />
+      <input
+        type="text"
+        id="imageDescription"
+        placeholder="Tambahkan Deskripsi"
+      />
+      <button type="button" onclick="uploadImage()">Unggah Gambar</button>
+    </form>
       </div>
       <!-- galeri -->
       
@@ -178,6 +189,7 @@
     </ul>
   </footer>
  </div>
+<script src="gallery/script.js"></script>
     <!-- fist layout end -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
