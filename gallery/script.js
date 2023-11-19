@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+/document.addEventListener("DOMContentLoaded", function () {
   const galleryContainer = document.getElementById("gallery");
   const modal = document.getElementById("myModal");
   const modalImage = document.getElementById("modalImage");
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Array of image data (URL and description)
   const images = [
-    { url: "ab2a.jpg", description: "Sesi foto bersama di bpk. Syahroni." },
+    { url: "asset/ab2a.jpg", description: "Sesi foto bersama di bpk. Syahroni." },
     { url: "image2.jpg", description: "Deskripsi Gambar 2" },
     { url: "image3.jpg", description: "Deskripsi Gambar 3" },
     // Add more image URLs and descriptions as needed
