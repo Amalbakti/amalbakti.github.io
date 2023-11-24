@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Array of image data (URL and description)
   const images = [
     { url: "../asset/ab2a.jpg", description: "Sesi foto bersama di bpk. Syahroni." },
-    { url: "../asset/carousel2.jpg", description: "Deskripsi Gambar 2" },
+    { url: "../asset/item.jpg", description: "Deskripsi Gambar 2" },
     { url: "../asset/carousel3.jpg", description: "Deskripsi Gambar 3" },
     // Add more image URLs and descriptions as needed
   ];
