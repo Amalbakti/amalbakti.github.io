@@ -2,6 +2,53 @@ body {
   background: #fbfbfd;
 }
 
+/* maps */
+.contact .col {
+  display: flex;
+  margin-top: 2rem;
+  background-color: none;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.contact .col .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+form {
+  border: 2px solid #f1f1f1;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
 .new_footer_area {
   background: #fbfbfd;
 }
