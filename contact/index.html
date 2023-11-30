@@ -45,14 +45,39 @@
     </nav>
 
     <!-- fist layout start -->
-    <div class="container-fluid bg-white text-dark" style="height: 110vh">
+   <section>
+     <div class="container-fluid bg-white text-dark" style="height: 100vh">
       <div class="row text-center align-items-center mt-5">
         
         <div class="col-12">
           
         </div>
         <p class="text-primary mt-5 h2">SEKERTARIAT</p>
-         <div class="col-sm-12">
+        <!-- sekertariat -->
+<section id="secretariat" class="secretariat">
+  <b>Kenapa peduli anak yatim piatu & dhuafa?</b>
+          <p>
+            Karena mereka kami peduli, semata - mata membantu meringankan beban mereka.
+          </p>
+        </section>
+<!-- sekertariat end  -->
+<div class="row justify-content-center">
+  <div class="col-sm-8 mt-3">
+    <div class="card">
+      <div class="card-body">
+  <dl>
+    <p>Dewan Pembina & Penasehat</p>
+    <dt>Bpk. Kepala Desa</dt>
+    <dt>Bpk.Ustadz Ahmmad Sidiq</dt> 
+    <dt> Bpk Ustadz Subhan</dt>
+  </dl>    
+</div>
+</div> 
+</div>
+</div>
+
+<div class="row justify-content-center">
+<div class="col-sm-8 mt-3">
           <div class="card">
             <div class="card-body">
               <p>Ketua</p>
@@ -60,8 +85,9 @@
                <a class="fa fa-whatsapp" style="padding: 10px 20px; border-radius: 10px; background-color: rgb(11, 226, 101); color:#fff" href="https://wa.link/s0y9sz" role="button"> Whatshapp</a>
                </div>
           </div>
-        </div> 
-        <div class="col-sm-6 mt-3">
+        </div>
+        <div class="row justify-content-center">
+        <div class="col-sm-4 mt-3">
           <div class="card">
             <div class="card-body">
               <p>Sekertaris</p>
@@ -70,7 +96,7 @@
                </div>
           </div>
         </div>        
-        <div class="col-sm-6 mt-3">
+        <div class="col-sm-4 mt-3">
           <div class="card">
             <div class="card-body">
               <p>Bendahara</p>
@@ -79,23 +105,19 @@
                </div>
           </div>
         </div>
-        <p>Dewan Pembina & Penasehat</p>
-        <h5>Bpk. Kepala Desa</h5>
-        <b>Bpk.Ustadz Ahmmad Sidiq, Bpk Ustadz Subhan</b>      
-      </div>
-    </div> 
   </div>
+</section> 
 
   <!-- Contact Section Start -->
     
-  <section id="contact" class="contact text-center">
-    <h2><span>Contact</span> Kami</h2>
+  <section id="contact" class="contact text-center mt-5">
+    <h2>Contact</h2>
     <p>
-      Karena kesibukan kami masing-masing, berusaha untuk resposnif.
+      Berusaha untuk resposnif, kami terbuka terima kritik dan saran yang membangun untuk kebaikan organesasi.
     </p>
     
   <div class="row justify-content-center"> 
-    <div class="col-md-8 mt-3" >
+    <div class="col-md-6 mt-3" >
         <div class="card">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.730941013268!2d109.4041256!3d-6.9227327999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fdba22de487a3%3A0xf1775c338145a228!2sPaguyuban%20Amal%20Bhakti%20Cibelok!5e0!3m2!1sid!2sid!4v1688532678076!5m2!1sid!2sid"
@@ -105,15 +127,28 @@
         class="map"
       > 
     </iframe>
-    
-    <form>
+  </div>
+  </div>
+  
+    <div class="col-md-6 mt-3" > 
+      <h2>Contact Kami</h2>
+      <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+        <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    <form name="contact-kami-form" action="" method="post">
       <label for="name">Nama Lengkap:</label><br>
-      <input type="text" id="name" name="name"><br>
+      <input type="text" id="name" name="nama"><br>
       <label for="email">Email:</label><br>
       <input type="email" id="email" name="email"><br>
-      <label for="phone">Nomor Telepon:</label><br>
-      <input type="tel" id="phone" name="phone"><br><br>
-      <input type="submit" value="Submit">
+      <label for="message">Pesan:</label><br>
+      <textarea id="message" name="pesan"></textarea><br><br>
+      <input class="btn btn-primary btn-kirim" type="submit" value="Kirim">
+
+      <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+        Loading...
+      </button>
     </form>
     </div>
     </div>
@@ -228,5 +263,35 @@
   </footer>
     <!-- footer end -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- spreadsheet -->
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxdQVgPNz6x0d8WcwLRtB2UwhJzb0jwZOvNltJJZ6gQ2BYR6--Zij1ds2qRPqpu-B5L/exec'
+      const form = document.forms['contact-kami-form']
+    form
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoading = document.querySelector('.btn-loading');
+      const myAlert = document.querySelector('.my-alert');
+
+
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+         //ketika tombol submit diklik
+         //tampilkan tombol loading, hilangkan tombol kirim
+         btnLoading.classList.toggle('d-none');
+         btnKirim.classList.toggle('d-none')
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            //tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            // Tampilkan alert
+            myAlert.classList.toggle('d-none');
+            // Reset formnya
+            form.reset();
+            console.log('Success!', response);
+        })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
   </body>
 </html>
