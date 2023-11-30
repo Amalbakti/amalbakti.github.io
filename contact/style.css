@@ -3,6 +3,10 @@ body {
 }
 
 /* maps */
+.contact {
+  position: relative;
+  top: 10px;
+}
 .contact .col {
   display: flex;
   margin-top: 2rem;
