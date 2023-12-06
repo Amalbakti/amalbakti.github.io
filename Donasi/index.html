@@ -57,33 +57,17 @@
           
           <!-- copy pasye -->
    
-        <div class="container">
-          <div class="label" style="border-color: #1255e4">
-            Copy No. Rek
-          </div>
-          <div class="copy-text">
-            <input type="text" value="7254155898" id="copyText" readonly>
-            <button id="copyBtn">
-              Copy text
-            </button>
-            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-            <script>
-                const copyBtn = document.getElementById('copyBtn')
-                const copyText = document.getElementById('copyText')
-                
-                copyBtn.onclick = () => {
-                    copyText.select();    // Selects the text inside the input
-                    document.execCommand('copy');    // Simply copies the selected text to clipboard 
-                     Swal.fire({         //displays a pop up with sweetalert
-                        icon: 'success',
-                        title: 'Text copied to clipboard',
-                        showConfirmButton: false,
-                        timer: 1000
-                    });
-                }
-            </script>
-          </div>
-        </div>
+        <div class="copytext">
+        <input id="copyText" class="input-field text-center" type="text" value="7254155898" readonly>
+        <button id="copyButton" class="copy-button">
+            <i class="fa fa-clone"></i> Copy No.
+        </button>
+        <p id="copiedText"></p>     
+            <p class="text-sm-center">a/n Paguyuban Amal Bakti Cibelok.</p>
+            <i>Mohon kiranya semuanya selalu mengingatkan, ini adalah Amanah yang sangat mulia</i>       
+            </div>
+          </div>      
+    </div>
           <!--end copy -->
             
         <p class="text-sm-center">a/n Paguyuban Amal Bakti Cibelok.</p>
