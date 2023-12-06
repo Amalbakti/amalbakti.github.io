@@ -139,9 +139,9 @@
         <strong>Terimakasih!</strong> Pesan anda sudah kami terima.
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       </div>
-    <form name="contact-kami-form" action="" method="post">
+    <form name="contact-kami-form" action="" method="post" autocomplete="off">
       <label for="name">Nama Lengkap:</label><br>
-      <input type="text" id="name" name="nama"><br>
+      <input type="text" id="name" name="nama" autofocus required minlength="3"><br>
       <label for="email">Email:</label><br>
       <input type="email" id="email" name="email"><br>
       <label for="message">Pesan:</label><br>
