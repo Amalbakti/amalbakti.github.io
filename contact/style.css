@@ -3,9 +3,9 @@ body {
 }
 
 /* maps */
-.contact {
-  position: relative;
-  top: 10px;
+.contact .row .col .card iframe {
+  margin-top: 5;
+  margin-left: 10px;
 }
 .contact .col {
   display: flex;
@@ -41,7 +41,6 @@ textarea {
   box-sizing: border-box;
 }
 
-/* 
 input[type="submit"] {
   background-color: #4caf50;
   color: white;
@@ -50,11 +49,24 @@ input[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
 }
-/*  */
+
 input[type="submit"]:hover {
   background-color: #45a049;
 }
 
+input:invalid {
+  border: none;
+  outline: 2px solid rgb(172, 128, 8);
+  border-radius: 3px;
+}
+
+input:valid {
+  border: 1px solid black;
+  outline: inherit;
+  border-radius: inherit;
+}
+
+/* footer */
 .new_footer_area {
   background: #fbfbfd;
 }
