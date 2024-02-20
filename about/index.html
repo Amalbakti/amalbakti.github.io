@@ -3,23 +3,32 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/home/style.css">
-    <title>Amalbakti profile</title>
-
-    <!-- bootstap -->
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/about/style.css">
+    <title>Amalbakti Profile</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
+  
   <body>
-    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    
+    <!-- nav section start -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light text-light fixed-top shadow-lg">
       <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="/index.html">AMAL BAKTI</a>
+        <a class="navbar-brand fw-bold" href="/index.html">
+          <img src="asset/logoAB.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">Amal Bakti
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/about">About</a>
@@ -27,56 +36,85 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Others </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/contact/">contact</a></li>
+                <li><a class="dropdown-item" href="/contact/">Contact</a></li>
                 <li><a class="dropdown-item" href="/gallery/">Gallery</a></li>
                 <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="/Donasi/">Donasi</a></li>
+                <li><a class="dropdown-item" href="/Donasi/">donasi</a></li>
               </ul>
             </li>
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button class="btn btn-outline-dark" type="submit">Search</button>
           </form>
         </div>
       </div>
     </nav>
+    <!-- nav section end -->
 
+    <!-- fist layout start -->
+    <div class="container bg-height text-dark mt-5" style="height: 100vh display: flex flex-direction: column justify-content: space-between">
+   
+    <!-- carousel image -->
+
+  
+      
+      <!-- end of carousel image -->
+      <!-- Jumbotron -->
     
-
-    <!-- Jumbotron -->
-    <div class="jumbotron mt-5  text-center " >
-      <img src="../asset/logoAB1.jpg" alt="Amal Bakti" width="200" class="rounded-circle mt-4 img-thumbnail">
+    <section class="jumbotron mt-5 text-center ">
+      <marquee bgcolor="#e2edff" direction="">JADWAL KAMIS 14 DESEMBER 2023, MALAM JUM'AT KLIWON DI RUMAH BPK. ROZAQ RT.04 RW. 05 DUSUN KLEDUNG.</marquee>
+      <img src="../asset/logoAB1.jpg" alt="Amal Bakti" width="200" class="rounded-circle img-thumbnail">
       <h1 class="display-4">Amal Bakti!</h1>
       <p class="lead"></p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L48,202.7C96,213,192,235,288,213.3C384,192,480,128,576,101.3C672,75,768,85,864,117.3C960,149,1056,203,1152,192C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-    </div>
-    <!-- end Jumbotron -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L34.3,170.7C68.6,181,137,203,206,213.3C274.3,224,343,224,411,224C480,224,549,224,617,208C685.7,192,754,160,823,160C891.4,160,960,192,1029,181.3C1097.1,171,1166,117,1234,90.7C1302.9,64,1371,64,1406,64L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+    
+            
+   <p class="text-md-center">Silahkan donasikan niat baik anda di Nomor Rekening BSI dibawah ini.</p>
+            <p><h4>Rek.Bank Syariah Indonesia</h4>
+  
 
-    <!-- About -->
+
+  <!-- copy pasye -->
+        <div class="container">
+        <input id="copyText" class="input-field text-center" type="text" value="7254155898" readonly>
+        <button id="copyButton" class="copy-button">
+            <i class="fa fa-clone"></i> Copy No.
+        </button>
+        <p id="copiedText"></p>     
+            <p class="text-sm-center">a/n Paguyuban Amal Bakti Cibelok.</p>
+            <i>Mohon kiranya semuanya selalu mengingatkan, ini adalah Amanah yang sangat mulia</i>       
+            </div>
+          </div>      
+    </div>
+     </section>
+          <!--end copy -->
+       <!-- end Jumbotron -->
+          
+         <!-- About -->
     <section id="about">
       <div class="container">
         <div class="row text-center">
           <div class="col">
-            <h2>About Me</h2>
+            <h2></h2>
             <p>Visi Misi : Paguyuban Amal Bakti</p>
           </div>
         </div>
         <div class="row ">
-          <div class="col-4">
+          <div class="col-md-4 mb-4">
             <h4>Visi: Amal</h4>
             <p>Terwujudnya masyarakat Cibelok yang Agamis, Makmur, Amanah dan Lestari ( AMAL )</p>
           </div>
-          <div class="col-4">
+          <div class="col-md-4 mb-4">
             <h4>Misi: Bakti</h4>
             <p> 1. Mewujudkan masyarakat yang Beragama, percaya adanya Tuhan Yang Maha Esa;</p>
             <p> 2. Mewujudkan kepedulian pada masyarakat lemah, dengan istiqomah untuk melaksanakan Amal dalam segala bidang;</p>
             <p> 3. Mewujudkan kegiatan-kegiatan Kemasyarakatan yang bersifat sosial untuk segenap lapisan masyarakat;</p>
-            <p> 4. Mewujudkan Toleransi kepada segenap komponen baik Intern maupun Ekstern yang Amanah.</p>
+            <p> 4. Mewujudkan Toleransi kepada segenap komponen, baik Intern maupun Ekstern yang Amanah.</p>
             <p> 5. Mewujudkan Bakti Sosial pada umat beragama dengan senantiasa meningkatkan Iman dan Taqwa.</p>
               </p>
           </div>
-          <div class="col-4">
+          <div class="col-md-4 mb-4">
             <h4>Tujuan Paguyuban Amal Bakti</h4>
             <p> 1. Mengajak dan merangkul pada segenap lapisan masyarakat untuk percaya adanya Tuhan Yang Maha Esa.</p>
            <p> 2. Mensyiarkan nilai-nilai luhur Agama sebagai umat yang bertaqwa, memberikan tauladan masyarakat dengan mengedepankan Amal kebaikan.</p>
@@ -87,100 +125,159 @@
           </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,32L34.3,32C68.6,32,137,32,206,58.7C274.3,85,343,139,411,176C480,213,549,235,617,224C685.7,213,754,171,823,160C891.4,149,960,171,1029,170.7C1097.1,171,1166,149,1234,149.3C1302.9,149,1371,171,1406,181.3L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
     </section>
     <!-- About end -->
 
-   <!-- footer -->
-    <footer class="new_footer_area bg_color mt-5">
-      <div class="new_footer_top">
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-3 col-md-6">
-                      <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
-                          <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
-                         <a href="/">
-                            <img style="width: 75px; height: 75px;" src="/asset/reab.png" alt="">
-                        </a>
-                          <p>Don’t miss any updates of our new templates and extensions.!</p>
-                          <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
-                              <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
-                              <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
-                              <p class="mchimp-errmessage" style="display: none;"></p>
-                              <p class="mchimp-sucmessage" style="display: none;"></p>
-                          </form>
-                      </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6">
-                    <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
-                          <h3 class="f-title f_600 t_color f_size_18">Amal Bakti</h3>
-                          <ul class="list-unstyled f_list">
-                              <li><a href="/">Beranda</a></li>
-                              <li><a href="/contact/">Kontak</a></li>
-                              <li><a href="/gallery/">Gallery</a></li>
-                              <li><a href="#">Desktop</a></li>
-                              <li><a href="#">Projects</a></li>
-                              <li><a href="/Donasi/">Donasi</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6">
-                      <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
-                          <h3 class="f-title f_600 t_color f_size_18">Help</h3>
-                          <ul class="list-unstyled f_list">
-                              <li><a href="#">FAQ</a></li>
-                              <li><a href="#">Term &amp; conditions</a></li>
-                              <li><a href="#">Reporting</a></li>
-                              <li><a href="#">Documentation</a></li>
-                              <li><a href="#">Support Policy</a></li>
-                              <li><a href="#">Privacy</a></li>
-                          </ul>
-                      </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6">
-                      <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
-                          <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
-                          <div class="f_social_icon">
-                              <a href="#" class="fa fa-facebook"></a>
-                              <a href="#" class="fa fa-twitter"></a>
-                              <a href="#" class="fa fa-instagram"></a>
-                              <a href="https://www.youtube.com/channel/UCIxC0x8HKtqcmTJRXBi-LGg" class="fa fa-youtube"></a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="footer_bg">
-              <div class="footer_bg_one"></div>
-              <div class="footer_bg_two"></div>
-          </div>
-      </div>
-      <div class="footer_bottom">
-          <div class="container">
-              <div class="row align-items-center">
-                  <div class="col-lg-6 col-sm-7">
-                      <p class="mb-0 f_400">© amalbakti.. 2022-2023 All rights reserved.</p>
-                  </div>
-                  <div class="col-lg-6 col-sm-5 text-right">
-                      <p>Made with <i class="icon_heart"></i> in <a href="https://amalbakti.github.io" target="_blank">Amal Bakti.</a></p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </footer>
+     <!-- Pengurus -->
+     
+    <!-- end Pengurus -->
 
-  <!-- end footer -->
+      <!-- Sponsor -->
+    <section id="sponsor">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Mitra/Sposor Kami</h2>
+            <a>Silahkan pasang sponsor di space yang tersedia, hubungi kami.</a>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+          <div class="col-md-2 mb-3 mt-3" style="width: 100px; height: 100px;">
+            <div class="card text-center">
+              <img src="asset/gg.jpg" class="card rounded-circle img-thumbnail" alt="...">
+            </div>
+            <p class="card-text text-center">GG. Merah.</p>
+          </div>
+          <div class="col-md-2 mb-3 mt-3" style="width: 100px; height: 100px;">
+            <div class="card text-center">
+              <img src="asset/cibelok1.jpeg" class="card rounded-circle img-thumbnail" alt="...">
+            </div>
+             <p class="card-text text-center">Pemdes. Cibelok.</p>
+          </div>
+          <div class="col-md-2 mb-3 mt-2 mt-3" style="width: 100px; height: 100px;">
+          <div class="card text-center" style="width: 75px; height: 75px;" >
+            <a href="asset/sampah.jpg">
+            <img src="asset/sampah.jpg" class="card rounded-circle img-thumbnail" alt="...">
+            </a>
+          </div>
+          <p class="card-text text-center">Iklan Masyarakat</p>
+        </div>
+          <div class="col-md-2 mb-3 mt-3" style="width: 100px; height: 100px;">
+          <div class="card text-center" style="width: 75px; height: 75px;" >
+            <i class="fa fa-image">Space</i>
+          </div>
+          <p class="card-text text-center">sponsor</p>
+        </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Sponsor -->
+    <!-- fist layout end -->  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
-
-    <!-- gsap -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- footer-->
+    <footer class="new_footer_area bg_color">
+    <div class="new_footer_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                        <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
+                       <a href="/">
+                          <img style="width: 75px; height: 75px;" src="/asset/reab.png" alt="">
+                      </a>
+                        <p>Don’t miss any updates of our new templates and extensions.!</p>
+                        <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                            <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                            <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                            <p class="mchimp-errmessage" style="display: none;"></p>
+                            <p class="mchimp-sucmessage" style="display: none;"></p>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                        <h3 class="f-title f_600 t_color f_size_18">Amal Bakti</h3>
+                        <ul class="list-unstyled f_list">
+                            <li><a href="/">Beranda</a></li>
+                            <li><a href="/contact/">Kontak</a></li>
+                            <li><a href="/gallery/">Gallery</a></li>
+                            <li><a href="#">Desktop</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="/Donasi/">Donasi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                        <h3 class="f-title f_600 t_color f_size_18">Help</h3>
+                        <ul class="list-unstyled f_list">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Term &amp; conditions</a></li>
+                            <li><a href="#">Reporting</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Support Policy</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                        <h3 class="f-title f_600 t_color f_size_18">Team Solutions</h3>
+                        <div class="f_social_icon">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="https://www.youtube.com/channel/UCIxC0x8HKtqcmTJRXBi-LGg" class="fa fa-youtube"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bg">
+            <div class="footer_bg_one"></div>
+            <div class="footer_bg_two"></div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-sm-7">
+                    <p class="mb-0 f_400">© amalbakti.. 2022-2024 All rights reserved.</p>
+                </div>
+                <div class="col-lg-6 col-sm-5 text-right">
+                    <p>Made with <i class="icon_heart"></i> in <a href="https://amalbakti.github.io" target="_blank">Amal Bakti.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+</body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+  </script>
+  <!-- gsap -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/TextPlugin.min.js"></script>
-  
   <script>
     gsap.registerPlugin(TextPlugin);
-    gsap.to('.lead', {duration: 3.5, delay: 1.5, text: 'Bantu meringankan beban anak yatim piatu.'})
+    gsap.to('.lead', {duration: 2, delay: 1.5, text: 'Membantu meringankan beban anak yatim piyatu.'})
     gsap.from('.jumbotron img', {duration: 2, rotateY: 360, opacity: 0})
     gsap.from('.display-4', {duration: 1, x:-50, opacity: 0, delay: 0.5, ease: 'back'})
-    gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce'})
   </script>
+
+
+
+  <script src="/home/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script>
+  </script>
+  </body>
 </html>
