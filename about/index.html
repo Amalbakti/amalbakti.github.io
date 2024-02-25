@@ -48,7 +48,7 @@
     <!-- nav section end -->
 
     <!-- fist layout start -->
-    <div class="container bg-height text-dark mt-5" style="height: 100vh display: flex flex-direction: column justify-content: space-between">
+    <div class="container-fluid bg-height text-dark mt-5" style="height: 100vh display: flex flex-direction: column justify-content: space-between">
    
     <!-- carousel image -->
 
@@ -58,7 +58,7 @@
       <!-- Jumbotron -->
     
     <section class="jumbotron mt-5 text-center ">
-      <marquee bgcolor="#e2edff" direction=""> 🌍 SALDO AKHIR KAS ANAK YATIM - PIATU PER TANGGAL 25 JANUARI 2024, BERJUMLAH Rp 9.154.000. </marquee>
+      <marquee class="mt-5" bgcolor="#e2edff" direction=""> 🌍 SALDO AKHIR KAS ANAK YATIM - PIATU PER TANGGAL 25 JANUARI 2024, BERJUMLAH Rp 9.154.000. </marquee>
       <img src="../asset/logoAB1.jpg" alt="Amal Bakti" width="200" class="rounded-circle img-thumbnail">
       <h1 class="display-4">Amal Bakti!</h1>
       <p class="lead"></p>
@@ -263,7 +263,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/TextPlugin.min.js"></script>
   <script>
     gsap.registerPlugin(TextPlugin);
-    gsap.to('.lead', {duration: 2, delay: 1.5, text: 'Membantu meringankan beban anak yatim piyatu.'})
+    gsap.to('.lead', {duration: 2, delay: 1.5, text: 'Membantu meringankan beban anak yatim - piatu.'})
     gsap.from('.jumbotron img', {duration: 2, rotateY: 360, opacity: 0})
     gsap.from('.display-4', {duration: 1, x:-50, opacity: 0, delay: 0.5, ease: 'back'})
   </script>
