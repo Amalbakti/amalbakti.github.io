@@ -38,7 +38,7 @@ marquee {
     background-image: -o-linear-gradient(top, #ccf, #fff);
 background-image:linear-gradient(to bottom,#ccf,#fff);
 background-repeat:repeat-x;
-	border: 4px solid #130875;
+	border: 1px solid #130875;
 	box-shadow:0 5px 20px rgba(0, 0, 0, 0.9);
 
 width: 350px;
