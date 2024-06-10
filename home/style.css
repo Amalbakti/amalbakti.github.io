@@ -25,6 +25,16 @@ h1 {
 }
 
 /* runing text */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f2f2f2;
+}
 @keyframes slide {
 	from {
 		transform: translateX(0);
