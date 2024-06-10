@@ -48,7 +48,7 @@ body {
 .logos {
 	overflow: hidden;
 	padding: 10px 0;
-	background: white;
+	background: #e2edff;
 	white-space: nowrap;
 	position: relative;
 }
