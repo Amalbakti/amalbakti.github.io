@@ -24,6 +24,13 @@ h1 {
   border-radius: 10px;
 }
 
+.img-fluid {
+	margin-top: 5;
+	width: 1200px;
+	height: 1600px;
+	margin-left: 50px;
+}
+
 /* runing text */
 
 * {
