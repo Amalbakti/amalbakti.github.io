@@ -85,6 +85,13 @@ body {
 
 /* end runing text */
 
+.container-copyText {
+    border: 2px solid #f1f1f1;
+    padding: 20px;
+    width: 15%;
+    margin: auto;
+  }
+
 .input-field {
   width: 300px;
   padding: 10px;
