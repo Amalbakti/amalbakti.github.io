@@ -1,0 +1,65 @@
+:root {
+    --success: #17a598;
+    --success-light: #e8fffd;
+    --warning: #ffb600;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+.font-bs {
+    font-family: "Berkshire Swash", serif;
+}
+
+/* Navbar */
+.Nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px 15px;
+}
+/* Navbar */
+
+/* Button */
+.btn {
+    font-size: 19px;
+    font-weight: 600;
+    padding: 8px 25px;
+}
+
+.btn-success {
+    background-color: var(--success);
+    color: white;
+    border: 1px solid var(--success);
+}
+
+.btn-outline-success {
+    background-color: white;
+    color: var(--success);
+    border: 1px solid var(--success);
+}
+
+.btn-light-success {
+    background-color: var(--success-light);
+    color: var(--success);
+    border: 1px solid var(--success-light);
+}
+
+.btn-warning {
+    background-color: var(--warning);
+    color: rgb(1,1,1);
+    border: 1px solid var(--warning);
+}
+/* End Button */
+
+/* Jawal Kegiatan */
+.bg-light-success {
+    background-color: var(--success-light);
+}
+/* End Jawal Kegiatan */
+
+/* Event */
+.bg-success {
+	background-color: var(--success);
+}
+/* End Event */
