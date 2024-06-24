@@ -63,3 +63,52 @@ body {
 	background-color: var(--success);
 }
 /* End Event */
+
+/* Copy Text */
+
+.container-copyText {
+    border: 2px solid #f1f1f1;
+    padding: 20px;
+    width: 65%;
+    margin: auto;
+  }
+
+.input-field {
+  width: 40px;
+  padding: 10px;
+  font-size: 18px;
+  border-color: #1255e4;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.copy-button {
+  padding: 10px 20px;
+  border: 1px solid #718ca8;
+  background-color: #0051ff;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.copy-button i {
+  margin-right: 5px;
+}
+
+#copiedText {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+
+#projects {
+  background-color: #ffff;
+}
+
+#sponsor {
+  background-color: #fbfbfd;
+}
+
+body {
+  background: #fbfbfd;
+}
